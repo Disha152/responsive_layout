@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .grand_parent {
+      /* width:100vw; */
+      height: auto;
+      background: rgb(12, 12, 97);
+      color: white;
+    }
+
+    h1 {
+      font-size: 4rem;
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      padding: 5rem;
+    }
+
+    .projects{
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      transition: all 0.2 linear;
+      height: auto;
+      margin: auto;
+      width: 80vw;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      transition: all 0.2 linear;
+      height: auto;
+      margin: auto;
+      width: 80vw;
+}
+
+.contact{
+  display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      transition: all 0.2 linear;
+      height: auto;
+      margin: auto;
+      width: 80vw;
+}
+
+.navbar{ display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      transition: all 0.2 linear;
+      height: auto;
+      margin: auto;
+      width: 80vw;}
+
+
+ .navbar-child{
+  background: #95BAE4;
+      box-shadow: 0 0 20px gray;
+      flex: 1 1 350px;
+      height: 100px;
+      margin: 10px;
+ }     
+
+.contact-child{
+  background: #95BAE4;
+      box-shadow: 0 0 20px gray;
+      flex: 1 1 700px;
+      height: 400px;
+      margin: 10px;
+}
+
+ .project-child{
+  background: #95BAE4;
+      box-shadow: 0 0 20px gray;
+      flex: 1 1 350px;
+      height: 200px;
+      margin: 10px;
+ }
+
+.skills-child {
+  background: #95BAE4;
+      box-shadow: 0 0 20px gray;
+      flex: 1 1 150px;
+      height: 200px;
+      margin: 10px;
+}
+
+    .parents {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      transition: all 0.2 linear;
+      height: auto;
+      margin: auto;
+      width: 80vw;
+    }
+
+    .child {
+      background: #95BAE4;
+      box-shadow: 0 0 20px gray;
+      flex: 1 1 200px;
+      height: 400px;
+      margin: 15px;
+
+
+    }
+
+
+    .child:first-child {
+      background: #95BAE4;
+    }
+
+    .child:last-child {
+      background: #95BAE4;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grand_parent">
+
+    <div class="navbar">
+      <div class="navbar-child">name with animation</div>
+      <div class="navbar-child">menu-items</div>
+    </div>
+
+    <div class="parents"> 
+      <!-- Intro -->
+
+      <div class="child"> Intro</div>
+      <div class="child"> Photo</div>
+
+    </div>
+
+    <br/>
+
+    <div class="parents">
+
+      <div class="child"> links with photo</div>
+      <div class="child"> about-me</div>
+
+    </div>
+
+    <br/>
+
+    <h1>My Skills</h1>
+
+    <div class="row">
+     
+      <br/>
+      <div class="skills-child">c++ </div>
+      <div class="skills-child"> dsa</div>
+      <div class="skills-child">flutter/android </div>
+      <div class="skills-child">htmlcssjavascript</div>
+      <div class="skills-child">mern stack </div>
+
+    </div>
+
+   <br/>
+
+   <h1>My Projects</h1>
+     <div class="projects">
+      <div class="project-child">Mern-stackProjects</div>
+      <div class="project-child">React Projects</div>
+      <div class="project-child">HTMLcssjavascript</div>
+      <div class="project-child">flutter projects</div>
+      <div class="project-child">uxuiprojects</div>
+      <div class="project-child">android projects</div>
+     </div> 
+
+  <br/>
+  <br/>
+
+  <div class="contact">
+    <div class="contact-child">Contacts</div>
+  </div>
+
+  </div>
+
+</body>
+
+</html>
