@@ -1,0 +1,48 @@
+ul,
+li {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+.grand_parent .navbar   .navbar-child a{
+  text-decoration: none;
+  color: white;
+}
+
+.grand_parent .nav-bar  .navbar-child a:hover{
+  color:grey;
+ 
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.grand_parent .navbar .navbar-child .first {
+  width: 25.3rem;
+  height: 3rem;
+  /* position: absolute;
+  left: 9.7rem;
+  top: 1.3rem; */
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #ffffff;
+  font-family: Alex Brush, 'Source Sans Pro';
+  white-space: nowrap;
+  text-align: center;
+  align-items: center;
+}
+
+/* .grand_parent .navbar .navbar-child .home{
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+} */
+

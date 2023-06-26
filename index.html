@@ -4,33 +4,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="theme-color" content="#000000" />
+  <title>Disha's Portfolio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alex+Brush%3A400" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C600%2C800" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C600%2C800" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pontano+Sans%3A400" />
+  <link rel="stylesheet" href="./index.css" />
+
   <style>
     * {
       margin: 0;
       padding: 0;
     }
 
+    body {
+      background: #1f1f1f;
+    }
+
     .grand_parent {
       /* width:100vw; */
       height: auto;
-      background: rgb(12, 12, 97);
+      /* background: #1f1f1f; */
       color: white;
+      
     }
 
     h1 {
       font-size: 4rem;
-      padding: 50px 0;
-      text-align: center;
+      /* padding-left: 150px; */
+      text-align:center;
     }
 
     p {
       text-align: center;
-      padding: 5rem;
+      padding: 1rem;
     }
 
-    .projects{
-      display:flex;
+    .projects {
+      display: flex;
       justify-content: space-around;
       align-items: center;
       flex-wrap: wrap;
@@ -49,10 +61,12 @@
       height: auto;
       margin: auto;
       width: 80vw;
-}
+      align-items: center;
 
-.contact{
-  display: flex;
+    }
+
+    .contact {
+      display: flex;
       justify-content: space-around;
       align-items: center;
       flex-wrap: wrap;
@@ -60,49 +74,72 @@
       height: auto;
       margin: auto;
       width: 80vw;
-}
+    }
 
-.navbar{ display: flex;
+    .navbar {
+      display: flex;
       justify-content: space-around;
       align-items: center;
       flex-wrap: wrap;
       transition: all 0.2 linear;
       height: auto;
       margin: auto;
-      width: 80vw;}
+      width: 80vw;
+    }
 
 
- .navbar-child{
-  background: #95BAE4;
-      box-shadow: 0 0 20px gray;
+    .navbar-child {
+    
+      padding-top: 20px;
+      justify-content: center;
       flex: 1 1 350px;
       height: 100px;
       margin: 10px;
- }     
+      text-align: center;
+      align-items: center;
+      display: flex;
+    }
 
-.contact-child{
-  background: #95BAE4;
-      box-shadow: 0 0 20px gray;
+    .contact-child {
+      box-shadow: 0 0 20px floralwhite;
+
       flex: 1 1 700px;
-      height: 400px;
+      height: auto;
       margin: 10px;
-}
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
 
- .project-child{
-  background: #95BAE4;
-      box-shadow: 0 0 20px gray;
+    .project-child {
+     
+     
       flex: 1 1 350px;
       height: 200px;
       margin: 10px;
- }
+      border-radius: 10px;
 
-.skills-child {
-  background: #95BAE4;
-      box-shadow: 0 0 20px gray;
+    }
+
+    .skills-child {
+    
+     
       flex: 1 1 150px;
-      height: 200px;
-      margin: 10px;
-}
+      height: auto;
+      align-items: center;
+      display:flex;
+      justify-content: center;
+    
+    }
+
+    .pic{
+          height:200px;
+          width:165px;
+    }
+    .pic1{
+          height:200px;
+          width:180px;
+    }
 
     .parents {
       display: flex;
@@ -114,25 +151,386 @@
       margin: auto;
       width: 80vw;
     }
+ 
+    .parents1 {
+      box-shadow: 0 0 12px white;
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      transition: all 0.2 linear;
+      height: auto;
+      margin: auto;
+      width: auto;
+      
+    }
+
 
     .child {
-      background: #95BAE4;
-      box-shadow: 0 0 20px gray;
+      
+    
       flex: 1 1 200px;
       height: 400px;
-      margin: 15px;
+   
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      padding-top: 50px;
+      /* padding-bottom:25px; */
+
 
 
     }
+
+    .child9 {
+      
+    
+      flex: 1 1 200px;
+      height: auto;
+   
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      padding-top: 100px;
+      /* padding-bottom:25px; */
+
+
+
+    }
+
+
+    
+    .child2 {
+    
+    
+      flex: 1 1 200px;
+      height: auto;
+      width:auto;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: start;
+      padding-top: 25px;
+      padding-bottom:25px;
+
+
+
+    }
+
+ 
+
+    .welcome {
+      margin-bottom: 0.1rem;
+      font-size: 3.405rem;
+      font-weight: 300;
+      line-height: 1.5;
+      letter-spacing: 0.9146rem;
+      text-transform: uppercase;
+      color: #ffffff;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+    }
+
+    #element {
+     
+      font-size: 2.7rem;
+      font-family: Poppins, 'Source Sans Pro';
+      text-align: center;
+    }
+
+    .name {
+      margin-bottom: 2.1rem;
+      font-size: 5.7105rem;
+      font-weight: 600;
+      line-height: 1.5;
+      color: #ffffff;
+      font-family: Poppins, 'Source Sans Pro';
+    }
+
+    .number {
+
+      font-size: 2rem;
+      font-weight: 300;
+      line-height: 1.5;
+      letter-spacing: 0.03rem;
+      text-transform: uppercase;
+      color: #ffffff;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+      flex-shrink: 0;
+      flex: 1 1 200px;
+    }
+
+    .gmail {
+      margin-top: 0.2rem;
+      font-size: 2rem;
+      font-weight: 300;
+      line-height: 1.5;
+      letter-spacing: 0.03rem;
+      text-transform: uppercase;
+      color: #ffffff;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .download-resume {
+
+      font-size: 2rem;
+      font-weight: 400;
+      line-height: 1.5;
+      letter-spacing: 0.127rem;
+      text-transform: capitalize;
+      color: #ffffff;
+      font-family: Poppins, 'Source Sans Pro';
+      white-space: nowrap;
+    }
+
 
 
     .child:first-child {
-      background: #95BAE4;
+     
     }
 
     .child:last-child {
-      background: #95BAE4;
+      
     }
+
+  .circle_avatar {
+  /* margin-bottom: 1.4rem; */
+  
+  padding: 0.7rem 1rem 0.8rem 1rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/ellipse-6.png');
+  flex-shrink: 0;
+}
+
+.circle_avatar {
+  position: relative;
+  animation: bounce 1.5s infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+ .border {
+  width: 33rem;
+  height: 33rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+
+
+    .rowspan {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      padding: 5px;
+      flex: 1 1 200px;
+      height: 400px;
+      margin: 10px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .icon-users {
+      height: 20px;
+      width: 20px;
+    }
+
+    .icon-mail {
+      height: 20px;
+      width: 20px;
+    }
+
+    button {
+      background: linear-gradient(180deg, #15b9b9 -0%, #3c1cff 100%);
+      border: none;
+      border-radius: 10px;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+
+    }
+
+
+
+
+.photo {
+
+  height:34rem;
+  width: 27rem;
+  object-fit: cover;
+  margin:20px;
+ 
+}
+
+.child1 {
+    
+      /* box-shadow: 0 0 20px gray; */
+      flex: 1 1 200px;
+      height: 400px;
+      /* margin:10px; */
+      /* align-items: center; */
+      display: flex;
+      ;
+      /* flex-direction: column;
+      justify-content: center;
+      text-align: center; */
+      /* padding-top: 25px;
+      padding-bottom:25px; */
+
+      align-items: center;
+
+      justify-content:center;
+      text-align:center;
+
+    }
+ .icon{
+  width:4rem;
+  height:4rem;
+  margin-top: 4rem;
+  margin-left:4rem;
+}
+
+ .icon1{
+  width:4rem;
+  height:3.5rem;
+  margin-top: 4rem;
+  margin-left:4rem;
+  color:#524c4c;
+
+}
+
+.abp{
+  height:12rem;
+  width:24rem;
+}
+
+.about-me {
+  margin-left: 1rem;
+  max-width: 54.5rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+ .my-skills {
+  width: 27rem;
+  height: 8.5rem;
+  /* position: absolute;
+  left: 0;
+  top: 0; */
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  font-size: 5.6482rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.2824rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+.project-child {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    background-color: #f2f2f2;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 5px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    margin:20px;
+    object-fit:contain;
+  }
+
+  .project-child:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .banner{
+    height:200px;
+    width:400px;
+
+
+  }
+
+  
+  .banner1{
+    height: 160px;
+    width:300px;
+
+
+  }
+
+
+
+.contact-me {
+ 
+  font-size: 3.6482rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.2824rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+
+.get-in-touch {
+
+ 
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.2825;
+  color: #ffffff;
+  font-family: Pontano Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+
+
+
+ .menu-items {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+
+
+
+
   </style>
 </head>
 
@@ -140,62 +538,268 @@
   <div class="grand_parent">
 
     <div class="navbar">
-      <div class="navbar-child">name with animation</div>
-      <div class="navbar-child">menu-items</div>
-    </div>
+      <div class="navbar-child">
+        <p class="first">Disha Gupta
+          <br />
+          <span id="element"></span>
+        </p>
+      </div>
 
-    <div class="parents"> 
-      <!-- Intro -->
-
-      <div class="child"> Intro</div>
-      <div class="child"> Photo</div>
+      <div class="navbar-child">
+      
+          <p class="menu-items"><a href="#home">Home</a></p>
+          <p class="menu-items"><a href="#about-me">About</a></p>
+          <p class="menu-items"><a href="#my-skills">Skills</a></p>
+          <p class="menu-items"><a href="#my-projects">Project</a></p>
+          <p class="menu-items"><a href="#contact-me"> Contact</a></p>
+       
+      </div>
 
     </div>
 
     <br/>
+    <br/>
+    <br/>
+    
 
     <div class="parents">
 
-      <div class="child"> links with photo</div>
-      <div class="child"> about-me</div>
+
+      <div class="child">
+
+        <p class="welcome">Welcome</p>
+        <p class="name">
+          I'm Disha
+          <!-- <br /> -->
+          Gupta
+        </p>
+
+        <img class="icon-users" src="./assets/icon-users.png" />
+        <p class="number">9555329815</p>
+        <img class="icon-mail" src="./assets/icon-envelope.png" />
+        <p class="gmail">disha29082001@gmail.com</p>
+
+
+        <br />
+        <br />
+        <a href="https://drive.google.com/drive/folders/1385uVB2EAH_u1LV4pD_bWFpKUCMPgSLf?usp=sharing" target=" ">
+          <button>
+            <p class="download-resume">Download Resume</p>
+          </button>
+
+        </a>
+      </div>
+
+
+
+      <div class="child9">
+        <div class="circle_avatar">
+          <img class="border" src="./assets/photo1.png" />
+        </div>
+      </div>
 
     </div>
 
+    <br />
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
     <br/>
 
-    <h1>My Skills</h1>
 
-    <div class="row">
-     
-      <br/>
-      <div class="skills-child">c++ </div>
-      <div class="skills-child"> dsa</div>
-      <div class="skills-child">flutter/android </div>
-      <div class="skills-child">htmlcssjavascript</div>
-      <div class="skills-child">mern stack </div>
+    <div class="parents1">
+
+      <div class="child1"> 
+           
+        <div class="logos">
+          <a href='https://github.com/Disha152' target=' '>
+            <img class="icon" src="./assets/github.png" />
+          </a>
+          <br />
+          <br />
+          <a href="https://www.linkedin.com/in/disha-gupta-880273226/" target=" "> <img class="icon"
+              src="./assets/linkedin.png" /></a>
+
+          <br />
+          <br />
+          <a href="mailto:disha29082001@gmail.com?to=disha29082001@gmail.com" target="">
+            <img class="icon1" src="./assets/gmail.png" />
+          </a>
+          <br />
+          <br />
+          <a href="https://www.instagram.com/disha_g21/" target=" ">
+            <img class="icon" src="./assets/instagram.png" />
+          </a>
+          <br />
+          <br />
+        </div>
+      
+          <img class="photo" src="./assets/picture.png" />
+        
+
+      </div>
+      <div class="child2">
+         <img class="abp" src="./assets/about-picture.png"/>
+         <br />
+         <p class="about-me">
+           I am Disha Gupta, a highly motivated web developer currently pursuing my B.Tech in Computer Science.
+           Specializing in web development and expanding my skills in the Flutter framework, I deliver exceptional
+           websites that exceed user expectations. With a strong commitment to continuous learning, I have
+           successfully solved over 200+ questions on LeetCode. Additionally, I have had the privilege of serving as
+           the Android Mentor in the Google Developer Student Club at MMMUT, where I guided and mentored aspiring
+           developers in Android app development. As a full stack developer intern at Octanet, I am eager to tackle
+           new challenges and contribute my expertise to innovative projects.
+           <br />
+      </div>
 
     </div>
 
-   <br/>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 
-   <h1>My Projects</h1>
-     <div class="projects">
-      <div class="project-child">Mern-stackProjects</div>
-      <div class="project-child">React Projects</div>
-      <div class="project-child">HTMLcssjavascript</div>
-      <div class="project-child">flutter projects</div>
-      <div class="project-child">uxuiprojects</div>
-      <div class="project-child">android projects</div>
-     </div> 
 
-  <br/>
-  <br/>
+    <div class="navbar">
+      <div class="navbar-child">
+      <h1 class="my-skills">My Skills</h1>
+      </div>
+    </div>
 
-  <div class="contact">
-    <div class="contact-child">Contacts</div>
+    <br />
+    <br />
+    <br />
+    <br />
+    
+
+
+    <div class="row">
+      
+      <br />
+      <div class="skills-child"><img class="pic1" src="./assets/c++.png"/></div>
+      <div class="skills-child"><img class="pic" src="./assets/dsa.png"/></div>
+      <div class="skills-child"><img class="pic" src="./assets/flutter-skills.png"/></div>
+      <div class="skills-child"><img class="pic" src="./assets/htmlcssjs-skills.png"/></div>
+      <div class="skills-child"><img class="pic" src="./assets/mern-skills.png"/></div>
+  </div>
+   
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+    
+  <br />
+  <br />
+  <br />
+  <br />
+
+    <div class="navbar">
+      <div class="navbar-child">
+      <h1 class="my-skills">Projects</h1>
+      </div>
+    </div>
+    <br/>
+    <br/>
+    
+    <div class="projects">
+    
+      <div class="project-child">
+        <img src="assets/mern.jpg" alt="Project 1">
+      </div>
+      <div class="project-child"><img class="banner" src="assets/htmlcssjs.png" alt="Project 2"></div>
+      <div class="project-child">  <img class="banner" src="assets/reacct.png" alt="Project 3"></div>
+      <div class="project-child"><img class="banner" src="assets/flute.png" alt="Project 4"></div>
+      <div class="project-child"> <img class="banner" src="assets/banner.png" alt="Project 5" ></div>
+      <div class="project-child"><img class="banner1" src="assets/uxandui'.png" alt="UX/UI Projects"></div>
+   
+    </div>
+     
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    
+    <br />
+    <br />
+
+    <div class="contact">
+      <div class="contact-child">
+        <p class="contact-me">Contact Me
+          <br />
+
+          <br />
+          <p class="get-in-touch">
+            Get In Touch
+            <br />
+    
+            <br />
+            Hire Me! or Drop a
+            <br />
+            Mail for your queries
+            <br />
+    
+            <br />
+            Name: Disha Gupta
+            <br />
+    
+            <br />
+            Address: Raiganj, Gorakhpur
+            <br />
+    
+            <br />
+            Email: disha29082001@gmail.com
+            <br />
+    
+            <br />
+            Contact:955532815
+            <br />
+    
+          </p>
+        </p>
+       
+      </div>
+    
+    </div>
+
+      </div>
+
+      
+    </div>
+
   </div>
 
-  </div>
+ 
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['MERN DEVELOPER', 'UX/UI DESIGNER', 'FLUTTER DEVELOPER', 'WEB DEVELOPER', 'MERN DEVELOPER', 'UX/UI DESIGNER', 'FLUTTER DEVELOPER', 'WEB DEVELOPER', 'MERN DEVELOPER', 'UX/UI DESIGNER', 'FLUTTER DEVELOPER', 'WEB DEVELOPER', 'MERN DEVELOPER', 'UX/UI DESIGNER', 'FLUTTER DEVELOPER', 'WEB DEVELOPER', 'MERN DEVELOPER', 'UX/UI DESIGNER', 'FLUTTER DEVELOPER', 'WEB DEVELOPER', 'MERN DEVELOPER', 'UX/UI DESIGNER', 'FLUTTER DEVELOPER', 'WEB DEVELOPER', 'MERN DEVELOPER', 'UX/UI DESIGNER', 'FLUTTER DEVELOPER', 'WEB DEVELOPER', 'MERN DEVELOPER', 'UX/UI DESIGNER', 'FLUTTER DEVELOPER', 'WEB DEVELOPER', 'MERN DEVELOPER', 'UX/UI DESIGNER', 'FLUTTER DEVELOPER', 'WEB DEVELOPER', 'MERN DEVELOPER', 'UX/UI DESIGNER', 'FLUTTER DEVELOPER', 'WEB DEVELOPER',],
+      typeSpeed: 30,
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/js/bootstrap.min.js"></script>
 
 </body>
 
