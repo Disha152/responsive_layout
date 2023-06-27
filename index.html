@@ -72,7 +72,7 @@
       flex-wrap: wrap;
       transition: all 0.2 linear;
       height: auto;
-      margin: auto;
+      margin-top: 40px;
       width: 80vw;
     }
 
@@ -98,7 +98,25 @@
       text-align: center;
       align-items: center;
       display: flex;
+      /* padding-inline:25px; */
     }
+
+    .menu{
+      display: flex;
+    }
+
+
+    .menu-items {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+
 
     .contact-child {
       box-shadow: 0 0 20px floralwhite;
@@ -179,7 +197,8 @@
       justify-content: center;
       text-align: center;
       padding-top: 50px;
-      /* padding-bottom:25px; */
+      padding-bottom:25px;
+      margin-bottom:50px;
 
 
 
@@ -232,7 +251,7 @@
       line-height: 1.5;
       letter-spacing: 0.9146rem;
       text-transform: uppercase;
-      color: #ffffff;
+      color: #bfbdbd;
       font-family: Poppins, 'Source Sans Pro';
       white-space: nowrap;
     }
@@ -280,6 +299,15 @@
       flex-shrink: 0;
     }
 
+    a{
+      text-decoration: none;
+      color: white;
+    }
+
+    a:hover{
+      color:gray;
+    }
+
     .download-resume {
 
       font-size: 2rem;
@@ -294,13 +322,6 @@
 
 
 
-    .child:first-child {
-     
-    }
-
-    .child:last-child {
-      
-    }
 
   .circle_avatar {
   /* margin-bottom: 1.4rem; */
@@ -318,6 +339,32 @@
   animation: bounce 1.5s infinite alternate;
 }
 
+.child9 {
+      
+    
+      flex: 1 1 230px;
+      height: auto;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      padding-top: 40px;
+      width:auto;
+      /* padding-bottom:25px; */
+      
+}
+
+
+  .border {
+  width: 34rem;
+  height: 33rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+
+
+    
 @keyframes bounce {
   0% {
     transform: translateY(0);
@@ -327,12 +374,6 @@
   }
 }
 
- .border {
-  width: 33rem;
-  height: 33rem;
-  object-fit: contain;
-  vertical-align: top;
-}
 
 
     .rowspan {
@@ -473,17 +514,16 @@
   }
 
   .banner{
-    height:200px;
-    width:400px;
+    height: 150px;
+    width: 300px;
 
 
   }
 
   
   .banner1{
-    height: 160px;
-    width:300px;
-
+    height: 150px;
+    width: 285px;
 
   }
 
@@ -517,15 +557,7 @@
 
 
 
- .menu-items {
-  font-size: 2.4rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #ffffff;
-  font-family: Poppins, 'Source Sans Pro';
-  white-space: nowrap;
-  flex-shrink: 0;
-}
+
 
 
 
@@ -546,13 +578,13 @@
       </div>
 
       <div class="navbar-child">
-      
+             <div class="menu">
           <p class="menu-items"><a href="#home">Home</a></p>
           <p class="menu-items"><a href="#about-me">About</a></p>
           <p class="menu-items"><a href="#my-skills">Skills</a></p>
           <p class="menu-items"><a href="#my-projects">Project</a></p>
           <p class="menu-items"><a href="#contact-me"> Contact</a></p>
-       
+      
       </div>
 
     </div>
@@ -565,7 +597,7 @@
     <div class="parents">
 
 
-      <div class="child">
+      <div class="child" i="home">
 
         <p class="welcome">Welcome</p>
         <p class="name">
@@ -584,7 +616,7 @@
         <br />
         <a href="https://drive.google.com/drive/folders/1385uVB2EAH_u1LV4pD_bWFpKUCMPgSLf?usp=sharing" target=" ">
           <button>
-            <p class="download-resume">Download Resume</p>
+            <p class="download-resume"><a href="https://drive.google.com/drive/folders/1yGtWjDMcpwsF4yAGEh48uNeICaERh6dW">Download Resume</a></p>
           </button>
 
         </a>
@@ -617,7 +649,7 @@
 
     <div class="parents1">
 
-      <div class="child1"> 
+      <div class="child1" id="about-me"> 
            
         <div class="logos">
           <a href='https://github.com/Disha152' target=' '>
@@ -673,7 +705,7 @@
 
 
     <div class="navbar">
-      <div class="navbar-child">
+      <div class="navbar-child" id="my-skills">
       <h1 class="my-skills">My Skills</h1>
       </div>
     </div>
@@ -708,7 +740,7 @@
 
     <div class="navbar">
       <div class="navbar-child">
-      <h1 class="my-skills">Projects</h1>
+      <h1 class="my-skills"  id=""my-projects">Projects</h1>
       </div>
     </div>
     <br/>
@@ -738,7 +770,7 @@
     <br />
     <br />
 
-    <div class="contact">
+    <div class="contact"  id="contact-me">
       <div class="contact-child">
         <p class="contact-me">Contact Me
           <br />
